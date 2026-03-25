@@ -10,3 +10,5 @@ python-multipart
 emails
 pytest
 httpx
+pandas
+openpyxl
