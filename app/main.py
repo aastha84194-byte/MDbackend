@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
+from app.db import base  # Ensure all models are registered
 from app.api.routes import auth, students, teachers, attendance, exams, fees, staff_forms, notifications, admin, academic
 from app.core.config import settings
 

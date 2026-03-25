@@ -4,7 +4,7 @@ from app.models.teacher import Teacher
 from app.models.academic import Subject
 from app.schemas.teacher import TeacherCreate, TeacherUpdate
 
-from app.models.user import User
+from app.db.base import User
 from app.models.role import Role, RoleName
 from app.core.security import get_password_hash
 

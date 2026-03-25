@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 from app.models.incharge import Incharge
-from app.models.user import User
+from app.db.base import User
 from app.models.role import Role, RoleName
 from app.core.security import get_password_hash
 from app.schemas.incharge import InchargeCreate, InchargeUpdate

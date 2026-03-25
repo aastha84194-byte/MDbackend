@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 from typing import List, Dict, Any
 from app.models.student import Student
 from app.models.teacher import Teacher
-from app.models.user import User
+from app.db.base import User
 from app.models.role import Role, RoleName
 from app.core.security import get_password_hash
 from app.schemas.student import StudentCreate

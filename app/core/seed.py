@@ -1,7 +1,7 @@
 from app.db.base import Base # Ensure all models are registered
 from app.db.session import SessionLocal
 from app.models.role import Role, RoleName
-from app.models.user import User
+from app.db.base import User
 from app.core.security import get_password_hash
 
 def seed_db():

@@ -12,4 +12,3 @@ from app.models.fee import FeeStructure, FeePayment
 from app.models.staff_management import Leave, Salary
 from app.models.form_requests import AdmissionForm, ContactUs
 from app.models.notifications import Announcement
-from app.models.incharge import Incharge

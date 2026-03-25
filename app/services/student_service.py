@@ -2,7 +2,7 @@ import pandas as pd
 import io
 from sqlalchemy.orm import Session
 from app.repositories.student_repository import student_repo
-from app.models.user import User
+from app.db.base import User
 from app.models.role import Role, RoleName
 from app.models.guardian import Guardian
 from app.models.academic import SchoolClass
